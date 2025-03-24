@@ -224,7 +224,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 >
 > Conforme o usuário acumula `Densidade`, certas condições começam a afetar todos que estiverem na `Área de Efeito` dessa passiva. Essas condições permanecem os afetando enquanto permanecerem na `Área de Efeito` da passiva.<br>
 >
-> O usuário pode escolher protejer seus aliados ao ativar a barreira. Isso faz com que uma aura de fogo envolva seus aliados, impedindo que as cinzas de baixa densidade os afetem.
+> O usuário pode escolher protejer seus aliados ao ativar a barreira. Isso faz com que uma aura de fogo envolva seus aliados, impedindo que as cinzas de baixa densidade os afetem. Além disso, o usuário pode escolher abrir parte da barreira, permitindo que seres dentro dela escapem sem dificuldades.
 >
 > <details>
 >
@@ -383,7 +383,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > <details>
 > <summary><h2 id="passiva2.4.1"><code>Ativar</code></h2></summary>
 >
-> Caso o usuário escolha esse estado, `Ganho de Densidade` passa a ter efeito.<br>
+> Caso o usuário escolha essa ação, `Ganho de Densidade` passa a ter efeito.<br>
 >
 > Os níveis de [`Presença das Cinzas`](#passiva2) possuem os seguintes efeitos:
 >
@@ -433,7 +433,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > A partir desse nível:
 >
 > 1. As [`Habilidades`](#habilidades) e [`Técnicas`](#técnicas) de [`Ember Approach`](#stand) podem ser usadas no nível `Neblina Flamejante`.
-> 2. Todos os seres dentro da barreira sofrem `Cegado`, exceto o usuário.
+> 2. Todos os seres **INIMIGOS** dentro da barreira sofrem `Cegado`, exceto o usuário.
 > 3. Caso um ser tente atravessar a barreira, é preciso que ele faça um teste de `Atletismo` $\text{DT 15}$.
 > 4. O usuário tem sua `Margem de Crítico` diminuída em $3$.
 > 5. O usuário ganha $\text{+3d4}$ em testes de `Furtividade`.
@@ -455,8 +455,9 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 2. Todos os seres dentro da barreira sofrem `Vulnerável` e `Falta de Ar`, exceto o usuário.
 > 3. O usuário sofre `Envenenado` e `Foco`.
 > 4. A barreira se torna tangível. Não é possível atravessar a barreira ou atacar seres separados por ela.
-> 5. O usuário tem sua `Margem de Crítico` diminuída em $4$.
-> 6. O usuário ganha $\text{+4d4}$ em testes de `Furtividade`.
+> 5. Todos os seres **ALIADOS** dentro da barreira podem fazer um teste $\text{Fortitude DT 12}$ para anular as condições $\text{Envenenado}$ e $\text{Falta de Ar}$
+> 6. O usuário tem sua `Margem de Crítico` diminuída em $4$.
+> 7. O usuário ganha $\text{+4d4}$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[2000,\:2500)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `Envenenado`, `Foco`
@@ -489,7 +490,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > <details>
 > <summary><h2 id="passiva2.4.2"><code>Parar</code></h2></summary>
 >
-> Caso o usuário escolha esse estado, `Ganho de Densidade` é igualado a `0` até que o usuário use `Ativar` novamente.
+> Caso o usuário escolha essa ação, `Ganho de Densidade` é igualado a `0` até que o usuário use `Ativar` novamente.
 > Entretanto, `Densidade` ainda permanece na mesma quantidade que estava antes do usuário usar `Parar`. Consequentemente, tudo que depende de `Densidade` permanece no mesmo estado em que estava antes do usuário usar `Parar`.
 >
 > </details>
@@ -497,7 +498,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > <details>
 > <summary><h2 id="passiva2.4.3"><code>Desativar</code></h2></summary>
 >
-> Caso o usuário escolha esse estado, `Ganho de Densidade` e `Densidade` são igualados a `0` até que o usuário utilize `Ativar` novamente.
+> Caso o usuário escolha essa ação, `Ganho de Densidade` e `Densidade` são igualados a `0` até que o usuário utilize `Ativar` novamente.
 > Consequentemente, tudo que depende de `Densidade` passa a perder efeito. Isso significa que:
 >
 > -   [`Presença das Cinzas`](#passiva2) é igualado a `0`.<br>
@@ -506,6 +507,13 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 >
 > </details>
 >
+> <details>
+> <summary><h2 id="passiva2.4.4"><code>Transmutar</code></h2></summary>
+> 
+> Caso o usuário escolha essa ação, ele pode escolher uma área arbitrária no perímetro de sua barreira para abrir um buraco nela, permitindo que seres dentro da barreira escapem. Entretanto, essa ação é uma $\text{Ação Bônus}$.
+>
+> </details>
+> 
 > </details>
 
 </details>
