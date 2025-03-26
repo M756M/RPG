@@ -515,7 +515,75 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > </details>
 > 
 > </details>
+>
+</details>
 
+<details>
+<summary><h2 id="passiva3">Maldição da Soberba das das Cinzas</h2></summary>
+
+> <details>
+> <summary><h3>Benefícios</h3></summary>
+>
+> <ul>
+> <li>
+> <b>O Colecionador de Ruínas</b>
+>
+> Brasius sempre viu as cinzas como testemunhas do que existiu e desapareceu. Sua conexão com elas transcende o físico, tornando-o um senhor das ruínas que ele próprio cria.
+>
+> Sempre que Brasius derrota um inimigo dentro da Presença das Cinzas, ele pode absorver suas cinzas, aumentando a densidade de sua aura.
+>
+> A cada absorção, sua barreira se expande em $1$ metro permanentemente até o fim do combate e sua furtividade dentro dela recebe um bônus adicional de $+2$ permanentemente até o fim do combate.
+> Ou pode ser usado para ganhar $500\:\text{Densidade}$.
+>
+> Ao final do combate, o aumento da barreira é convertido em cinzas que podem ser coletadas caso o usuário queira, estranhamente elas parecem se lembrar dos que foram mortos.
+> </li>
+> <li>
+> <b>O Trono de Cinzas Douradas</b>
+>
+> A soberba de Brasius o torna um monarca absoluto dentro de sua ruína, sua presença imponente distorcendo até mesmo a percepção dos que
+> ousam enfrentá-lo.
+>
+> Dentro da barreira, Brasius é visto como uma figura colossal e resplandecente, mesmo que ninguém possa ver claramente seu verdadeiro corpo.
+>
+> Inimigos dentro da barreira que o veem devem fazer um teste de $\text{Vontade DT 16}$. Se falharem, ficam amedrontados por $1 turno$.
+>Cooldown de $3 turnos$ para ser usado novamente, aplicado em todos os níveis da barreira.
+> Mesmo em cooldown, os inimigos ainda devem rodar um teste de $\text{Vontade DT 13}$. Se falharem, eles vão ficar hesitantes, recebendo $-3$ em testes de acerto contra você.
+> </li>
+> </ul>
+>
+> </details>
+>
+> <details>
+> <summary><h3>Malefícios</h3></summary>
+>
+> <ul>
+> <li>
+> <b>O Corpo que se Desfaz</b>
+>
+> A soberba exige seu preço. Brasius pode ser um rei sobre as cinzas, mas sua carne começa a compartilhar o mesmo destino que seu domínio.
+>
+> Para cada turno que passa dentro da barreira em seu nível máximo, Brasius perde lentamente sua solidez.
+>
+> Após $\text{2\:turnos}$, sua Força e Constituição são reduzidas em $-1$ até o fim do combate.<br>
+> Após $\text{4\:turnos}$, sua Força e Constituição são reduzidas em $-2$ até o fim do combate.<br><br>
+> Se permanecer dentro da barreira por $\text{6\:turnos}$ consecutivos, partes de seu corpo começam a virar pó, diminuindo a taxa de recuperação de vida em $33\%$.
+> Ao final do combate, lentamente as partes que se transformaram em cinzas vão retornando, demorando mais ou menos $\text{30\:minutos}$ para recuperar um membro que se transformou em cinzas.
+> </li>
+> <li>
+> <b>O Reino do Silêncio</b>
+> 
+> Brasius se torna absoluto dentro de sua barreira, mas a soberba é um veneno silencioso, e o isolamento que o fortalece também o condena.
+>
+> Dentro da barreira, nenhuma comunicação verbal funciona. Vozes são abafadas, ordens são ignoradas, e até gritos parecem sussurros insignificantes.
+>
+> Se um aliado permanecer na barreira por $\text{3\:turnos}$ (apenas no nível 4 e 5), ele começará a duvidar da própria realidade, precisando fazer um teste de $\text{Vontade\:DT\:16}$ ou ficará $\text{Paralisado}$ por $\text{1\:turno}$, perdido nas cinzas.
+>
+> Se Brasius permanecer sozinho na barreira por tempo demais ($\text{5 turnos consecutivos}$) e a barreira não puder mais ser desativada automaticamente ao fim do combate, ele terá que esperar um tempo para isso. Ficando mais de $\text{15\:minutos}$ sozinho na barreira, terá o mesmo efeito dos $\text{5 turnos}$, ele precisa fazer um teste de $\text{Vontade DT 18}$ ou esquecerá temporariamente de sua identidade, atacando qualquer coisa que se mova, como se tivesse voltado ao tempo que era um apóstolo.
+> </li>
+> </ul>
+>
+> </details>
+>
 </details>
 
 # Habilidades
