@@ -397,7 +397,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 1. As [`Habilidades`](#habilidades) e [`Técnicas`](#técnicas) de [`Ember Approach`](#stand) podem ser usadas no nível `Cinzas Leves`.<br>
 > 2. Todos os seres **INIMIGOS** dentro da barreira sofrem `Desprevenido`, exceto o usuário.
 > 3. O usuário tem sua `Margem de Crítico` diminuída em $1$.
-> 4. O usuário ganha $\text{+1d4}$ em testes de `Furtividade`.
+> 4. O usuário ganha $+3$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[500,\:1000)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `N/A`
@@ -417,7 +417,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 3. Todos os seres **INIMIGOS** dentro da barreira sofrem `Envenenado`, exceto o usuário.<br>
 > 4. Caso um ser tente atacar outro ser separado pela barreira, o atacante não pode selecionar seu alvo, possui `Desvantagem` no ataque e a `Rolagem de Ataque` é feita através de um teste $\text{DT 17}$.<br>
 > 5. O usuário tem sua `Margem de Crítico` diminuída em $2$.
-> 6. O usuário ganha $\text{+2d4}$ em testes de `Furtividade`.
+> 6. O usuário ganha $+6$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[1000,\:1500)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `N/A`
@@ -436,7 +436,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 2. Todos os seres **INIMIGOS** dentro da barreira sofrem `Cegado`, exceto o usuário.
 > 3. Caso um ser tente atravessar a barreira, é preciso que ele faça um teste de `Atletismo` $\text{DT 15}$.
 > 4. O usuário tem sua `Margem de Crítico` diminuída em $3$.
-> 5. O usuário ganha $\text{+3d4}$ em testes de `Furtividade`.
+> 5. O usuário ganha $+9$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[1500,\:2000)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `N/A`
@@ -457,7 +457,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 4. A barreira se torna tangível. Não é possível atravessar a barreira ou atacar seres separados por ela.
 > 5. Todos os seres **ALIADOS** dentro da barreira podem fazer um teste $\text{Fortitude DT 12}$ para anular as condições $\text{Envenenado}$ e $\text{Falta de Ar}$
 > 6. O usuário tem sua `Margem de Crítico` diminuída em $4$.
-> 7. O usuário ganha $\text{+4d4}$ em testes de `Furtividade`.
+> 7. O usuário ganha $+12$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[2000,\:2500)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `Envenenado`, `Foco`
@@ -477,7 +477,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 2. Todos os seres dentro da barreira sofrem `Petrificação Desacelerada`, exceto o usuário.
 > 3. Qualquer ser que tente atravessar a barreira sofre `Exausto` por `1 turno`.
 > 4. O usuário tem sua `Margem de Crítico` diminuída em $5$.
-> 5. O usuário ganha $\text{+5d4}$ em testes de `Furtividade`.
+> 5. O usuário ganha $+15$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[2500,\:\infty)\large{\frac{mg}{L}}$
 > -   Condições de Usuário: `Envenenado`, `Falta de Ar`, `Foco`
