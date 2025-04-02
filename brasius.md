@@ -207,7 +207,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 <details>
 <summary><h2 id="passiva1">Passiva 1</h2></summary>
 
-> **Nome**: Tenacidade Traumática
+> **Nome**: Tenacidade Traumática  
 > **Descrição**: O usuário ganha $10\%/20\%/35\%$ de `RD`, arredondado para baixo, quando seu `PV` estiver em $80\%/60\%/30\%$.
 
 </details>
@@ -480,7 +480,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 > 5. O usuário ganha $\text{+5d4}$ em testes de `Furtividade`.
 >
 > -   Intervalo de Densidade: $[2500,\:\infty)\large{\frac{mg}{L}}$
-> -   Condições de Usuário: `Envenenado`, `Foco`
+> -   Condições de Usuário: `Envenenado`, `Falta de Ar`, `Foco`
 > -   Condições: [`Marcação Flamejante`](#passiva2.1), `Envenenado`, `Falta de Ar`, `Petrificação Desacelerada`, `Cegado`, `Desprevenido`, `Vulnerável`
 >
 > </details>
