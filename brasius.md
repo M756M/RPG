@@ -593,7 +593,7 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 
 > **Nome**: Munições Pálidas  
 > **Tipo de Habilidade**: `Manipular`  
-> **Custo**: $1$ `PE` e $25$ `Densidade` por munição  
+> **Custo**: $1$ `PE` por uso e $25$ `Densidade` por munição  
 > **Potência**: Variável  
 > **Alcance**: `Raio de Alcance`  
 > **Área de Efeito**: Esfera de raio `Raio de Alcance`  
@@ -612,57 +612,19 @@ Além disso, o usuário também pode aplicar o `Spin` em outros objetos ou seres
 >
 > Alvos que sofrem de [`Marcação Flamejante`](#passiva2.1) tornam a trajetória de `Munições Pálidas` inteligente caso sejam atacados, fazendo com que sua `CA` diminua em $\text{Modificador de Precisão}$ caso sejam atacados por `Munições Pálidas`.
 >
-> Conforme os efeitos de [`Presença das Cinzas`](#passiva2) aumentam, a `Potência` dessa habilidade aumenta, seguindo abaixo:
+> Conforme os efeitos de [`Presença das Cinzas`](#passiva2) aumentam, a `Potência` dessa habilidade aumenta, seguindo a fórmula:
 >
-> <details>
-> <summary><h3 id="hab1.1"><code>Cinzas Leves</code>(Veja <code><a href="#passiva2.3.1.1">Presença das Cinzas</a></code>)</h3></summary>
+> $$\text{Potência}\,=\,2\,*\,(1\,+\,\text{Nível de Presença das Cinzas})$$
 >
-> -   `Potência`: 2
-> -   `Efeitos Adicionais`:
->     -   `Munições Pálidas` aplicam `Envenenado` por `2 turnos`
+> Essa habilidade amplia o dano de `Pistolas`, `Fuzis`, `Submetralhadoras` e `Snipers` de acordo com sua `Potência` e `Nível de Presença das Cinzas`. O dano dos tiros é ampliado da seguinte forma:
 >
-> </details>
+> $$\text{Amplificação de Dano}\,=\,1\text{d}X\,+\,\frac{\text{Potência}}{2}\,+\,\text{Modificador de Poder}$$
 >
-> <details>
-> <summary><h3 id="hab1.2"><code>Brasas Densas</code>(Veja <code><a href="#passiva2.3.1.2">Presença das Cinzas</a></code>)</h3></summary>
+> Onde $X$ é igual a $3\,+\,\text{Nível de Presença das Cinzas}$.
 >
-> -   `Potência`: 4
-> -   `Efeitos Adicionais`:
->     -   `Munições Pálidas` aplicam `Envenenado` por `2 turnos`
->     -   `Munições Pálidas` aplicam `Queimando` por `2 turnos`
+> A amplificação de dano pode ser descrita puramente em termos de `Nível de Presença das Cinzas` da seguinte forma:
 >
-> </details>
->
-> <details>
-> <summary><h3 id="hab1.3"><code>Neblina Flamejante</code>(Veja <code><a href="#passiva2.3.1.3">Presença das Cinzas</a></code>)</h3></summary>
->
-> -   `Potência`: 6
-> -   `Efeitos Adicionais`:
->     -   `Munições Pálidas` aplicam `Envenenado` por `3 turnos`
->     -   `Munições Pálidas` aplicam `Queimando` por `2 turnos`
->
-> </details>
->
-> <details>
-> <summary><h3 id="hab1.4"><code>Desabrochar da Fênix</code>(Veja <code><a href="#passiva2.3.1.4">Presença das Cinzas</a></code>)</h3></summary>
->
-> -   `Potência`: 8
-> -   `Efeitos Adicionais`:
->     -   `Munições Pálidas` aplicam `Envenenado` por `3 turnos`
->     -   `Munições Pálidas` aplicam `Queimando` por `3 turnos`
->
-> </details>
->
-> <details>
-> <summary><h3 id="hab1.5"><code>Ego Cinzento</code>(Veja <code><a href="#passiva2.3.1.5">Presença das Cinzas</a></code>)</h3></summary>
->
-> -   `Potência`: 10
-> -   `Efeitos Adicionais`:
->     -   `Munições Pálidas` aplicam `Envenenado` por `3 turnos`
->     -   `Munições Pálidas` aplicam `Queimando` por `3 turnos`
->     -   `Munições Pálidas` avança o estágio de `Petrificação Desacelerada` por `1` em caso de `Acerto Crítico`
->
-> </details>
+> $$\text{Amplificação de Dano}\,=\,1\text{d}(3\,+\,\text{Nível de Presença das Cinzas})\,+\,1\,+\,\text{Nível de Presença das Cinzas}\,+\,\text{Modificador de Poder}$$
 >
 > </details>
 
